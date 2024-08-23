@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server'
 import { Pinecone } from '@pinecone-database/pinecone'
 import OpenAI from 'openai'
+import 'dotenv/config';
+
 
 const systemPrompt = `
 You are a rate my professor agent to help students find classes, that takes in user questions and answers them.
@@ -15,7 +17,16 @@ export async function POST(req) {
         apiKey: process.env.PINECONE_API_KEY,
       })
     const index = pc.index('rag').namespace('ns1')
-    const openai = new OpenAI()
+    const openai = new OpenAI ({
+        baseURL: "https://openrouter.ai/api/v1",
+        apiKey: process.env.OPENROUTER_API_KEY,
+        defaultHeaders: {
+            "HTTP-Referer": process.env.YOUR_SITE_URL || "http://localhost:3000",
+            "X-Title": "Professor-Rating",
+            "Content-Type": 'application/json',
+          },
+      })
+        
 
     const text = data[data.length - 1].content
     const embedding = await openai.embeddings.create({
@@ -45,6 +56,7 @@ export async function POST(req) {
     const lastMessageContent = lastMessage.content + resultString
     const lastDataWithoutLastMessage = data.slice(0, data.length - 1)
 
+    
     const completion = await openai.chat.completions.create({
         messages: [
           {role: 'system', content: systemPrompt},
@@ -75,3 +87,4 @@ export async function POST(req) {
     })
     return new NextResponse(stream)
   }
+ 
