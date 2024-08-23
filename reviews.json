@@ -1,0 +1,131 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Alice Johnson",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Dr. Johnson is an exceptional professor who makes complex topics easy to understand."
+      },
+      {
+        "professor": "Dr. Robert Smith",
+        "subject": "Mathematics",
+        "stars": 4,
+        "review": "Dr. Smith is very knowledgeable, though sometimes his explanations can be a bit dense."
+      },
+      {
+        "professor": "Dr. Emily Davis",
+        "subject": "History",
+        "stars": 3,
+        "review": "Dr. Davis covers the material thoroughly but lacks enthusiasm in her teaching."
+      },
+      {
+        "professor": "Dr. Michael Brown",
+        "subject": "Physics",
+        "stars": 5,
+        "review": "Dr. Brown is engaging and passionate about physics, making the subject exciting."
+      },
+      {
+        "professor": "Dr. Sarah Wilson",
+        "subject": "Biology",
+        "stars": 2,
+        "review": "Dr. Wilson's lectures are often disorganized and hard to follow."
+      },
+      {
+        "professor": "Dr. David Lee",
+        "subject": "Chemistry",
+        "stars": 4,
+        "review": "Dr. Lee is very clear and methodical, though his exams can be quite challenging."
+      },
+      {
+        "professor": "Dr. Laura Taylor",
+        "subject": "English Literature",
+        "stars": 5,
+        "review": "Dr. Taylor brings literature to life with her engaging discussions and insights."
+      },
+      {
+        "professor": "Dr. James Martinez",
+        "subject": "Economics",
+        "stars": 3,
+        "review": "Dr. Martinez has a lot of knowledge but his teaching style can be a bit monotonous."
+      },
+      {
+        "professor": "Dr. Patricia Hernandez",
+        "subject": "Sociology",
+        "stars": 4,
+        "review": "Dr. Hernandez is insightful and brings real-world examples to her lectures."
+      },
+      {
+        "professor": "Dr. Daniel Anderson",
+        "subject": "Engineering",
+        "stars": 5,
+        "review": "Dr. Anderson is a fantastic professor who makes complex engineering concepts accessible."
+      },
+      {
+        "professor": "Dr. Jessica White",
+        "subject": "Political Science",
+        "stars": 3,
+        "review": "Dr. White is knowledgeable but her lectures can be somewhat dry and unengaging."
+      },
+      {
+        "professor": "Dr. William Clark",
+        "subject": "Philosophy",
+        "stars": 4,
+        "review": "Dr. Clark offers deep insights and stimulates critical thinking."
+      },
+      {
+        "professor": "Dr. Amanda Lewis",
+        "subject": "Art History",
+        "stars": 5,
+        "review": "Dr. Lewis is passionate about art history and her enthusiasm is infectious."
+      },
+      {
+        "professor": "Dr. Richard Walker",
+        "subject": "Astronomy",
+        "stars": 4,
+        "review": "Dr. Walker is very knowledgeable and his lectures are well-organized."
+      },
+      {
+        "professor": "Dr. Karen Hall",
+        "subject": "Statistics",
+        "stars": 2,
+        "review": "Dr. Hall's explanations are often unclear and she tends to rush through the material."
+      },
+      {
+        "professor": "Dr. Charles Allen",
+        "subject": "Geology",
+        "stars": 3,
+        "review": "Dr. Allen is good with practical examples but his lectures can be repetitive."
+      },
+      {
+        "professor": "Dr. Elizabeth Young",
+        "subject": "Music",
+        "stars": 5,
+        "review": "Dr. Young is an amazing teacher with a great ability to convey the beauty of music."
+      },
+      {
+        "professor": "Dr. Steven King",
+        "subject": "Environmental Science",
+        "stars": 4,
+        "review": "Dr. King is very passionate about the environment and provides engaging lectures."
+      },
+      {
+        "professor": "Dr. Angela Scott",
+        "subject": "Languages",
+        "stars": 5,
+        "review": "Dr. Scott is a fantastic language teacher who makes learning a new language fun and effective."
+      },
+      {
+        "professor": "Dr. Timothy Adams",
+        "subject": "Business",
+        "stars": 4,
+        "review": "Dr. Adams offers valuable insights into the business world and encourages practical application."
+      },
+      {
+        "professor": "Dr. Susan Baker",
+        "subject": "Anthropology",
+        "stars": 3,
+        "review": "Dr. Baker is knowledgeable but her teaching style could be more interactive."
+      }
+    ]
+  }
+  
