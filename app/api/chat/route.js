@@ -36,20 +36,20 @@ export async function POST(req) {
     })
 
     const results = await index.query({
-        topK: 5,
+        topK: 3,
         includeMetadata: true,
         vector: embedding.data[0].embedding,
     })
 
-    let resultString = ''
+    let resultString = '\n\nReturned results from vector db (done automatically): '
     results.matches.forEach((match) => {
-    resultString += `
-    Returned Results:
-    Professor: ${match.id}
-    Review: ${match.metadata.stars}
-    Subject: ${match.metadata.subject}
-    Stars: ${match.metadata.stars}
-    \n\n`
+      resultString += `\n
+      Returned Results:
+      Professor: ${match.id}
+      Review: ${match.metadata.stars}
+      Subject: ${match.metadata.subject}
+      Stars: ${match.metadata.stars}
+      \n\n`
     })
 
     const lastMessage = data[data.length - 1]
